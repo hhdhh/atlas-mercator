@@ -99,7 +99,7 @@ atlas-demo
 
 本项目按 AI Agent 工程师岗位要求"对号入座"设计，简历上每一条 JD 关键词都能在代码里找到：
 
-| JD 关键词 | 项目位置 |
+|  关键词 | 项目位置 |
 |---|---|
 | 多步推理 | `src/atlas_mercator/orchestrator/graph.py` + `prompts/orchestrator.py` |
 | 工具调用 | `src/atlas_mercator/tools/*.py`（7 个 Pydantic 类型化工具） |
