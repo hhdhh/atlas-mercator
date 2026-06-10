@@ -1,12 +1,19 @@
 # Atlas Mercator
 
 > **跨境电商多 Agent 调度中枢 —— LangChain + Claude + RAG + ERP/CRM 风格工具集成**
+> **Multi-Agent Control Plane for Cross-Border E-Commerce — LangChain + Claude + RAG + ERP/CRM-Style Tool Integration**
+
+<p align="center">
+  <a href="README.md">🇬🇧 English</a> · <a href="README.zh-CN.md">🇨🇳 中文</a>
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.3-orange.svg)](https://python.langchain.com/)
 [![Claude](https://img.shields.io/badge/Claude-Sonnet%204.6-7c3aed.svg)](https://www.anthropic.com/)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
+[![Coverage 64%](https://img.shields.io/badge/coverage-64%25-brightgreen.svg)](tests/)
+[![Release v0.1.0](https://img.shields.io/badge/release-v0.1.0-blue.svg)](https://github.com/hhdhh/atlas-mercator/releases/tag/v0.1.0)
 
 **Atlas Mercator** 是一个生产级多 Agent 系统，把跨境电商运营 —— 商品
 Listing 优化、客服、营销文案、竞品情报 —— 变成可编排、可工具调用、显式
