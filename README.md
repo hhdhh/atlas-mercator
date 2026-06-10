@@ -98,7 +98,7 @@ python -m atlas_mercator.web.gradio_app
 
 ---
 
-## 🎯 JD Keyword → Project Mapping
+## 🎯  Keyword → Project Mapping
 
 This project was designed to be a drop-in portfolio piece for AI Agent engineer roles.
 Every JD requirement maps to a concrete module:
