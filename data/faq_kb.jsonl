@@ -1,0 +1,20 @@
+{"id":"faq-01","source":"policy/returns.md","text":"退货政策：买家收货后 30 天内可无理由退货，运费由买家承担；商品质量问题 60 天内可申请包来回邮的退换货服务。","tags":["policy","return","refund"]}
+{"id":"faq-02","source":"policy/returns.md","text":"耳机的保修期是自签收之日起 12 个月。保修范围包括电池失效、单元损坏、电路故障；不包括外壳划伤和人为进水。","tags":["policy","warranty","earbud"]}
+{"id":"faq-03","source":"policy/shipping.md","text":"寄送到美国：标准物流 7-12 工作日，运费 USD 0（满 USD 35 包邮）；DHL 快递 3-5 工作日，需自付 USD 18 加急费。","tags":["shipping","us"]}
+{"id":"faq-04","source":"policy/shipping.md","text":"寄送到德国：DHL 当地派送 5-7 工作日，VAT 已含；单笔订单满 EUR 39 包邮。","tags":["shipping","de"]}
+{"id":"faq-05","source":"policy/shipping.md","text":"寄送到日本：佐川急便 5-8 工作日，含 10% 消费税；满 JPY 5000 包邮。","tags":["shipping","jp"]}
+{"id":"faq-06","source":"troubleshoot/earbuds.md","text":"蓝牙耳机左声道没声音：请长按充电盒按钮 10 秒至红灯闪烁重置配对；如仍异常，进入手机蓝牙设置删除本机后重新连接。","tags":["defective","earbud","pairing"]}
+{"id":"faq-07","source":"troubleshoot/earbuds.md","text":"蓝牙耳机无法开机：检查充电盒电量；将耳机放入盒中并用充电线连接 30 分钟；如仍无反应申请保修。","tags":["defective","earbud","power"]}
+{"id":"faq-08","source":"troubleshoot/earbuds.md","text":"降噪效果不明显：检查耳塞尺寸是否合适（提供 S/M/L 三种），不合适会让外部噪音漏入。","tags":"troubleshoot","tags_v2":["earbud","anc"]}
+{"id":"faq-09","source":"troubleshoot/projector.md","text":"投影仪无法对焦：长按遥控器 OK 键 3 秒启动自动对焦；如失败，进入设置-图像-手动对焦调节。","tags":["troubleshoot","projector","focus"]}
+{"id":"faq-10","source":"troubleshoot/projector.md","text":"投影仪画面偏色：检查 HDMI 线是否松动；进入设置-图像-色温选择\"标准\"。","tags":["troubleshoot","projector","color"]}
+{"id":"faq-11","source":"troubleshoot/watch.md","text":"智能手表无法同步心率：佩戴时确保手表背面紧贴皮肤；进入健康 App 重启传感器校准。","tags":["troubleshoot","watch","health"]}
+{"id":"faq-12","source":"troubleshoot/watch.md","text":"智能手表续航短：关闭\"抬腕亮屏\"和\"常亮显示\"；关闭非必要的健康监测项目（压力、血氧等）。","tags":["troubleshoot","watch","battery"]}
+{"id":"faq-13","source":"policy/customs.md","text":"美国进口关税：单笔订单低于 USD 800 免关税（Deminimis 政策）；如产生关税，DHL 协助清关，买家实付。","tags":["policy","customs","us"]}
+{"id":"faq-14","source":"policy/customs.md","text":"欧盟 IOSS：单笔订单低于 EUR 150 已含 VAT；超过将按目的国税率征收进口增值税。","tags":["policy","customs","eu"]}
+{"id":"faq-15","source":"policy/payment.md","text":"支持支付方式：Visa / Mastercard / Amex / PayPal / Apple Pay / Google Pay；不支持货到付款。","tags":["policy","payment"]}
+{"id":"faq-16","source":"policy/payment.md","text":"分期付款：订单金额超过 USD 99 可在结账时选择 Klarna 或 Afterpay 分 3-4 期免息。","tags":["policy","payment","installment"]}
+{"id":"faq-17","source":"policy/sizing.md","text":"手机壳适配性：iPhone 15 系列、iPhone 14 系列、iPhone 13 系列分开发售；下单时请在购物车确认型号。","tags":["policy","sizing","phone"]}
+{"id":"faq-18","source":"policy/sizing.md","text":"瑜伽垫厚度建议：6mm 适合膝盖/关节敏感用户；8mm 适合初学者和孕妇；10mm 适合康复训练。","tags":["policy","sizing","yoga"]}
+{"id":"faq-19","source":"troubleshoot/bluetooth.md","text":"蓝牙连接不稳定：远离微波炉和 Wi-Fi 路由器；保持设备与手机距离 < 10 米且无遮挡。","tags":["troubleshoot","bluetooth"]}
+{"id":"faq-20","source":"troubleshoot/feeder.md","text":"宠物喂食器卡粮：使用圆形颗粒直径 5-12mm 范围内的干粮；避免使用冻干或罐头。","tags":["troubleshoot","feeder"]}

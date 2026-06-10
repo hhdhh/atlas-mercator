@@ -1,0 +1,109 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "atlas-mercator"
+version = "0.1.0"
+description = "Multi-agent control plane for cross-border e-commerce: LangChain + Claude ReAct workflows, RAG, and ERP/CRM-style tool integration."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [
+    { name = "Atlas Mercator Contributors" }
+]
+keywords = [
+    "ai-agent", "langchain", "claude", "langgraph",
+    "multi-agent", "rag", "cross-border-ecommerce",
+    "gradio", "prompt-engineering", "tool-use",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-anthropic>=0.3.0",
+    "langgraph>=0.2.0",
+    "anthropic>=0.40.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.0.0",
+    "gradio>=4.0.0",
+    "chromadb>=0.5.0",
+    "sentence-transformers>=3.0.0",
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.6.0",
+    "mypy>=1.10.0",
+    "faker>=25.0.0",
+]
+notebook = [
+    "jupyter>=1.0.0",
+    "ipykernel>=6.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/<your-username>/atlas-mercator"
+Issues = "https://github.com/<your-username>/atlas-mercator/issues"
+Source = "https://github.com/<your-username>/atlas-mercator"
+
+[project.scripts]
+atlas = "atlas_mercator.cli:main"
+atlas-demo = "atlas_mercator.web.gradio_app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/atlas_mercator"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "PT", "RUF"]
+ignore = ["E501", "B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["N802", "N803"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --strict-markers --tb=short"
+asyncio_mode = "auto"
+markers = [
+    "integration: marks tests that call real LLM APIs",
+    "slow: marks tests as slow",
+]
+
+[tool.coverage.run]
+source = ["src/atlas_mercator"]
+omit = ["*/tests/*", "*/__init__.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+[tool.mypy]
+python_version = "3.11"
+strict_optional = true
+warn_unused_ignores = true
+ignore_missing_imports = true

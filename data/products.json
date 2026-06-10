@@ -1,0 +1,122 @@
+[
+  {
+    "sku": "BB-EARBUD-001",
+    "title_zh": "蓝牙无线耳机 ANC 主动降噪 40H 续航 IPX5 防水",
+    "category": "Electronics > Audio > Earbuds",
+    "price_usd": 39.99,
+    "cost_usd": 11.20,
+    "weight_g": 180,
+    "origin": "Shenzhen",
+    "stock": 1240,
+    "rating": 4.6,
+    "image_prompt": "matte black wireless earbuds on a wooden desk, soft morning light, premium product photo"
+  },
+  {
+    "sku": "YK-PROJECTOR-002",
+    "title_zh": "便携 4K 投影仪 家用影院 800ANSI 自动对焦",
+    "category": "Electronics > Video > Projectors",
+    "price_usd": 219.00,
+    "cost_usd": 88.50,
+    "weight_g": 1500,
+    "origin": "Hangzhou",
+    "stock": 380,
+    "rating": 4.4,
+    "image_prompt": "minimalist projector casting warm light on a white wall, cozy living room"
+  },
+  {
+    "sku": "SW-WATCH-003",
+    "title_zh": "智能手表 心率血氧睡眠监测 50+ 运动模式",
+    "category": "Electronics > Wearables > Smart Watches",
+    "price_usd": 49.90,
+    "cost_usd": 14.00,
+    "weight_g": 95,
+    "origin": "Shenzhen",
+    "stock": 980,
+    "rating": 4.3,
+    "image_prompt": "rose gold smartwatch on a marble surface, soft top-down light"
+  },
+  {
+    "sku": "PC-IPHONE15-004",
+    "title_zh": "透明防摔手机壳 iPhone 15 系列 MagSafe 兼容",
+    "category": "Electronics > Accessories > Phone Cases",
+    "price_usd": 12.50,
+    "cost_usd": 2.10,
+    "weight_g": 35,
+    "origin": "Dongguan",
+    "stock": 5200,
+    "rating": 4.7,
+    "image_prompt": "crystal clear phone case on a white iPhone, top-down product shot"
+  },
+  {
+    "sku": "YG-MAT-005",
+    "title_zh": "TPE 瑜伽垫 6mm 加厚防滑双面",
+    "category": "Sports & Outdoors > Fitness > Yoga",
+    "price_usd": 24.90,
+    "cost_usd": 7.80,
+    "weight_g": 1200,
+    "origin": "Ningbo",
+    "stock": 720,
+    "rating": 4.5,
+    "image_prompt": "rolled sage green yoga mat against a neutral background, soft natural light"
+  },
+  {
+    "sku": "PB-BLENDER-006",
+    "title_zh": "便携式果汁杯 6 叶刀片 USB 充电 400ml",
+    "category": "Home & Kitchen > Small Appliances > Blenders",
+    "price_usd": 29.00,
+    "cost_usd": 9.50,
+    "weight_g": 540,
+    "origin": "Foshan",
+    "stock": 1450,
+    "rating": 4.2,
+    "image_prompt": "compact white portable blender with strawberries inside, bright kitchen counter"
+  },
+  {
+    "sku": "DL-LAMP-007",
+    "title_zh": "LED 护眼台灯 5 档调光 USB 充电",
+    "category": "Home & Kitchen > Lighting > Desk Lamps",
+    "price_usd": 32.00,
+    "cost_usd": 9.20,
+    "weight_g": 680,
+    "origin": "Zhongshan",
+    "stock": 920,
+    "rating": 4.5,
+    "image_prompt": "modern LED desk lamp illuminating a clean study desk, warm light"
+  },
+  {
+    "sku": "TA-ADAPTER-008",
+    "title_zh": "万能旅行转换插头 65W GaN 4 口 USB",
+    "category": "Travel > Adapters > Power Adapters",
+    "price_usd": 36.00,
+    "cost_usd": 10.40,
+    "weight_g": 150,
+    "origin": "Shenzhen",
+    "stock": 1820,
+    "rating": 4.4,
+    "image_prompt": "compact white travel adapter with multiple USB ports, floating on gray background"
+  },
+  {
+    "sku": "PF-FEEDER-009",
+    "title_zh": "智能宠物喂食器 定时定量 1080P 摄像头",
+    "category": "Pet Supplies > Feeders > Automatic Feeders",
+    "price_usd": 79.00,
+    "cost_usd": 28.50,
+    "weight_g": 1850,
+    "origin": "Hangzhou",
+    "stock": 320,
+    "rating": 4.6,
+    "image_prompt": "white automatic pet feeder on a kitchen floor, soft warm light, a curious cat nearby"
+  },
+  {
+    "sku": "WB-BOTTLE-010",
+    "title_zh": "保温水杯 316 不锈钢 750ml 24H 保温",
+    "category": "Sports & Outdoors > Hydration > Water Bottles",
+    "price_usd": 21.50,
+    "cost_usd": 6.20,
+    "weight_g": 320,
+    "origin": "Yongkang",
+    "stock": 2100,
+    "rating": 4.7,
+    "image_prompt": "matte navy vacuum insulated water bottle, foggy cold drink, premium outdoor lighting"
+  }
+]
